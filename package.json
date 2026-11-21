@@ -1,0 +1,10 @@
+{
+  "name": "design-for-failure-slides",
+  "private": true,
+  "scripts": {
+    "dev": "marp --no-stdin -s .",
+    "build": "marp --no-stdin slides.md -o dist/index.html && mkdir -p dist && cp -R assets dist/",
+    "pdf": "marp --no-stdin slides.md --pdf --allow-local-files -o dist/design-for-failure.pdf",
+    "pptx": "marp --no-stdin slides.md --pptx --allow-local-files -o dist/design-for-failure.pptx"
+  }
+}
