@@ -5,14 +5,13 @@
 **PDF (PT):** https://sschonss.github.io/talk-design-for-failure/design-for-failure.pdf  
 **PDF (EN):** https://sschonss.github.io/talk-design-for-failure/en/design-for-failure.pdf
 
-Deck em [Marp](https://marp.app) baseado no artigo
-[Design for Failure: como assim meu sistema falha?](https://luizschons.com/pt-br/posts/design-for-failure/)
-e na palestra apresentada na SoftWeek, no PHPeste e no TLC Share Day (2025).
+Deck em [Marp](https://marp.app): versão no tema aifa da palestra original de 2025
+([sschonss/design-for-failure](https://github.com/sschonss/design-for-failure), 104 slides), com o mesmo conteúdo, slide a slide.
 
-- `slides.md` — o deck em português (32 slides, em 4 partes). Pouco texto por slide; o roteiro fica nas **notas do apresentador** (`<!-- ... -->`).
-- `slides.en.md` — the English translation (same 32 slides).
+- `slides.md` — o deck em português (104 slides, os mesmos do original).
+- `slides.en.md` — the English translation (same 104 slides; code unchanged).
 - `themes/aifa.css` — o mesmo tema da talk AI-Friendly Architecture.
-- `assets/` — foto e QR codes do artigo.
+- `assets/` — foto, diagramas originais, logos e QR codes.
 
 O deploy no GitHub Pages roda a cada push na `main` (`.github/workflows/pages.yml`).
 
